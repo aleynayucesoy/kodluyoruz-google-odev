@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 70px;
+}
+
+.container .search {
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .search p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.container .search .search-input input {
+  width: 400px;
+  height: 20px;
+}
+
+.container .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 3px;
+  height: 100px;
+}
+.container .footer .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #70ccc2;
+  width: 17.7%;
+}
+
+.container .footer .column:first-child {
+  background-color: #7ee5da;
+  width: 37%;
+}
+
+.container .footer .column:first-child p {
+  margin: 0;
+}
+
+.container .footer .column:last-child {
+  background-color: #62b3aa;
+  width: 45%;
+}
+
+.container .footer .column:last-child p {
+  margin: 0;
+}
+
+.container .footer .column:last-child span {
+  font-size: 14px;
+}
+
+.container .footer .column:last-child input::placeholder {
+  color: black;
+  font-size: 15px;
+}
